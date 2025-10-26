@@ -1,0 +1,21 @@
+
+> vibe-generated-app@1.0.0 dev
+> vite
+
+
+  VITE v5.4.20  ready in 391 ms
+
+  ➜  Local:   http://localhost:3000/
+  ➜  Network: http://172.20.5.218:3000/
+The file does not exist at "/home/workspace/node_modules/.vite/deps/react-dom_client.js?v=76627249" which is in the optimize deps directory. The dependency might be incompatible with the dep optimizer. Try adding it to `optimizeDeps.exclude`.
+The file does not exist at "/home/workspace/node_modules/.vite/deps/react-router-dom.js?v=2701dd24" which is in the optimize deps directory. The dependency might be incompatible with the dep optimizer. Try adding it to `optimizeDeps.exclude`.
+Error: The following dependencies are imported but could not be resolved:
+
+  pdf-lib (imported by /home/workspace/src/components/Uploader.jsx)
+
+Are they installed?
+    at file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:50669:15
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:50174:26
+11:37:05 AM [vite] ✨ new dependencies optimized: react-dom/client, react-router-dom
+11:37:05 AM [vite] ✨ optimized dependencies changed. reloading
